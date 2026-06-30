@@ -1,10 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Wheel Tab Switcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Switch browser tabs by scrolling the mouse wheel at the top of any webpage or while holding the Alt key.",
   "permissions": [
     "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
   ],
   "background": {
     "service_worker": "background.js"
